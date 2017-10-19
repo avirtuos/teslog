@@ -20,6 +20,8 @@ So this project will take shape over the next few months in my spare time and wi
 
 # Docker Instructions
 
+This project is now availabe on Docker Cloud [avirtuos/teslog](https://cloud.docker.com/swarm/avirtuos/repository/docker/avirtuos/teslog/general)
+
 ## Pre-requisites
 
 * Docker
@@ -34,4 +36,4 @@ $ docker build -t teslog Docker/
 $ docker run -i -t teslog
 ```
 
-## Download and run prebuilt container from Docker Hub
+## Download and run prebuilt container from Docker Cloud

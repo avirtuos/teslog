@@ -16,3 +16,22 @@ So this project will take shape over the next few months in my spare time and wi
 5. Will largely be written in either Python or Java.
 6. Will use RRDTool for graphs and long term storage (10+ years)
 
+
+
+# Docker Instructions
+
+## Pre-requisites
+
+* Docker
+
+## Build the container from scratch
+
+```
+$ docker build -t teslog Docker/
+```
+
+```
+$ docker run -i -t teslog
+```
+
+## Download and run prebuilt container from Docker Hub
